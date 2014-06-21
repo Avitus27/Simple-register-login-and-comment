@@ -3,24 +3,13 @@ Simple-register-login-and-comment
 
 I did this for a bit of practice, It's a simple registration, login and comment system.
 
-mySQL:
+It's tested and working with mySQL and PHP5
 
-Comments:
+1.	Change the values in create_database.php, login.php, register.php and comments.php for mysqli_connect():
+	##HOST##			= hostname (i.e. localhost, 127.0.0.1, example.com)
+	##USERNAME##		= your mySQL username
+	##PASSWORD##		= your mySQL password
+	##DATABASE_NAME##	= the database you connect to
 
-CREATE TABLE IF NOT EXISTS `comments` (
-`comment_id` int(11) NOT NULL AUTO_INCREMENT,
-`username` varchar(255) NOT NULL,
-`comment_text` varchar(255) NOT NULL,
-PRIMARY KEY (`comment_id`)
-)
-
-
-Users:
-
-CREATE TABLE IF NOT EXISTS `registration` (
-`username` varchar(255) NOT NULL,
-`password` varchar(255) NOT NULL,
-`id` int(11) NOT NULL AUTO_INCREMENT,
-PRIMARY KEY (`id`),
-UNIQUE KEY `username` (`username`),
-)
+2.	Navigate to and open create_database.php in a browser. If it succeeds, delete the file.
+	And that's it! You can add more HTML, CSS etc. as you need to suit it to your needs.
