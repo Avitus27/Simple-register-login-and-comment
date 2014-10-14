@@ -1,5 +1,5 @@
 <?php
-	/*Simple-register-login-and-comment/login.php
+	/*Simple-register-login-and-comment/register.php
      *Copyright (C) 2014  Mervyn Galvin - mervyn511@gmail.com - @Avitus27
      *
      *This program is free software; you can redistribute it and/or modify

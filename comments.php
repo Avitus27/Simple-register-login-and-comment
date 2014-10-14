@@ -5,7 +5,7 @@
 	label,input{float:left;width:49%;}
 </style>
 <?php
-	/*Simple-register-login-and-comment/login.php
+	/*Simple-register-login-and-comment/comments.php
      *Copyright (C) 2014  Mervyn Galvin - mervyn511@gmail.com - @Avitus27
      *
      *This program is free software; you can redistribute it and/or modify
