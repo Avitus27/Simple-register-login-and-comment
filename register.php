@@ -2,7 +2,7 @@
 	require_once('validation_functions.php');
 
 	$errors_array = [];
-    $options = ['cost' => 15,]; //edit the cost to increase/decrease the amount of time needed to get a hash
+	$options = ['cost' => 15,]; //edit the cost to increase/decrease the amount of time needed to get a hash
 
 	//Connect to Database
 	$dbconnection = mysqli_connect("##HOST##", "##USERNAME##", "##PASSWORD##", "##DATABASE_NAME##");
