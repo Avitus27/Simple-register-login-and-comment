@@ -1,5 +1,9 @@
 
-# Simple-register-login-and-comment #
+# Simple-register-login-and-comment
+
+## This project is now archived.
+This project is an old implementation of a basic login and comment system. It isn't particularly secure and should not be used as more than a reference.
+
 
 I did this for a bit of practice, It's a simple registration, login and comment system.
 
@@ -7,7 +11,7 @@ It's tested and working with mySQL and PHP5
 
 ----------
 
-###Install Instructions:###
+### Install Instructions:
 
 1.	Change the values in create_database.php, login.php, register.php and comments.php for mysqli_connect():
 	\##HOST##			= hostname (i.e. localhost, 127.0.0.1, example.com)
